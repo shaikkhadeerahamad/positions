@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+.first{
+    height: 130px;
+    width: 130px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    transform: rotate(45deg);
+    border-radius: 18px; 
+    background-size: cover;
+    box-shadow: 6px 0px 10px black;  
+}
+.first img{
+    border-radius: 18px;
+    transition: 0.4px;
+     transition-duration: 1.5s;
+    transition-delay:0.2s;
+}
+.first img:hover{
+    transform: scale(1.2);
+}
+
+.second{
+    height: 130px;
+    width: 130px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 90px;
+    left: 660px;
+    transform: rotate(45deg);
+    border-radius: 18px; 
+    background-size: cover; 
+    box-shadow: 6px 0px 10px black;
+}
+.second img{
+    border-radius: 18px;
+    transition: 0.4px;
+     transition-duration: 1.5s;
+    transition-delay:0.2s;
+}
+.second img:hover{
+    transform: scale(1.2);
+}
+
+.middle{
+    height: 190px;
+    width: 190px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 190px;
+    left: 500px;
+    transform: rotate(45deg); 
+    border-radius: 18px; 
+    background-size: cover;
+    box-shadow: 6px 0px 10px black;
+}
+.middle img{
+    border-radius: 18px;
+    transition: 0.4px;
+     transition-duration: 1.5s;
+    transition-delay:0.2s;
+}
+.middle img:hover{
+    transform: scale(1.2);
+}
+
+
+
+.third{
+    height: 130px;
+    width: 130px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    transform: rotate(45deg);
+    border-radius: 18px;
+    background-size:cover; 
+    box-shadow: 6px 0px 10px black;
+}
+.third img{
+    border-radius: 18px;
+    transition: 0.4px;
+     transition-duration: 1.5s;
+    transition-delay:0.2s;
+}
+.third img:hover{
+    transform: scale(1.2);
+}
+
+.fourth{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(122, 82, 160);
+    position: absolute;
+    top: 350px;
+    left: 660px;
+    transform: rotate(45deg);
+    border-radius: 18px; 
+    background-size:cover;
+    box-shadow: 6px 0px 10px black;
+}
+.fourth img{
+    border-radius: 18px;
+    transition: 0.4px;
+    transition-duration: 1.5s;
+    transition-delay:0.2s;
+}
+.fourth img:hover{
+    transform: scale(1.2);
+}
